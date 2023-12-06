@@ -1,0 +1,142 @@
+.footer-box {
+    padding: 5% 7%;
+    background: #003F7C;
+
+    .footer-left {
+        .footer-image {
+            .social-icon {
+                img {
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+
+    .footer-right {
+        color: #fff;
+
+        .footer-about-box {
+            span {
+                padding-left: 25px;
+                color: #F2F7FF;
+                font-family: Open Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            ul li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-family: Open Sans;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .footer-ind-box {
+
+
+            span {
+                padding-left: 25px;
+                color: #F2F7FF;
+                font-family: Open Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            ul li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-family: Open Sans;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .footer-media-box {
+            span {
+                padding-left: 25px;
+                color: #F2F7FF;
+                font-family: Open Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            ul li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-family: Open Sans;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .right-reserved {
+        color: #FFF;
+        font-size: 14px;
+        margin-top: 20px;
+        font-weight: 400;
+        font-style: normal;
+        font-family: Open Sans;
+    }
+}
+
+.newsletter {
+    background: #fff;
+    margin: 20px 0;
+
+    .newsletter-box {
+        width: 85%;
+        margin: auto;
+        position: relative;
+        top: 80px;
+        background: #F2F7FF;
+        padding: 26px;
+        border-radius: 12px;
+
+        .newsletter-text {
+            span {
+                color: #003F7C;
+                font-family: Open Sans;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+
+            }
+
+            p {
+                color: #666;
+                font-family: Open Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+            }
+        }
+
+        button {
+            border: none;
+            padding: 8px 20px;
+            border-radius: 12px;
+            background: #003F7C;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.contact-form {
+    background: #f3efef;
+
+    .contact-form-left {
+        position: relative;
+
+        .person-img {
+            position: absolute;
+            bottom: 0;
+
+            img {
+                height: 500px;
+                width: 100%;
+            }
+        }
+
+        img {
+            height: 600px;
+            width: 100%;
+        }
+    }
+
+    .contact-form-right {
+        .contact-form-box {
+            border: none;
+            border-radius: 10px;
+            padding: 40px 50px;
+
+            h2 {
+                color: #00246B;
+                font-family: Open Sans;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            p {
+                color: #333;
+                font-family: Open Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+
+            }
+
+            .form-data {
+                .form-label {
+                    color: #333;
+                    text-align: center;
+                    font-family: Open Sans;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+
+                button {
+                    border: 0;
+                    padding: 10px 32px;
+                    align-items: center;
+                    border-radius: 10px;
+                    background: #003F7C;
+                }
+            }
+
+        }
+    }
+}

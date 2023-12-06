@@ -1,0 +1,94 @@
+.industry-box {
+    background: #fff;
+    padding: 7% 10%;
+
+    .industry-content-left {
+        .industry-text {
+            font-style: normal;
+            padding-top: 35%;
+            @media(max-width:992px){
+                padding-top: 0;
+            }
+
+            h5 {
+                color: #00246B;
+                font-size: 36px;
+                font-weight: 600;
+            }
+
+            p {
+                color: #333;
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            button {
+                border: 0;
+                padding: 10px 30px;
+                color: #fff;
+                background: #003F7C;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .industry-content-right {
+        .industry-image-left {
+            @media (max-width:768px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            align-items: center;
+
+            .industry-image1 {
+                width: 210px;
+                height: 210px;
+                display: flex;
+                border-radius: 18px;
+                margin-bottom: 20px;
+                background: #003F7C;
+                justify-content: center;
+                box-shadow: 0px 6px 33px 0px #0000000f;
+            }
+
+            .industry-image2 {
+                width: 210px;
+                height: 210px;
+                display: flex;
+                border-radius: 18px;
+                margin-bottom: 20px;
+                justify-content: center;
+                box-shadow: 0px 6px 33px 0px #0000000f;
+            }
+
+        }
+
+        .industry-image-right {
+            .industry-icon-box {
+                padding-top: 100px;
+
+                @media(max-width:768px) {
+                    padding-top: 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .industry-image2 {
+                    width: 210px;
+                    height: 210px;
+                    display: flex;
+                    margin-bottom: 20px;
+                    border-radius: 18px;
+                    background: #ffffff;
+                    justify-content: center;
+                    box-shadow: 0px 6px 33px 0px #0000000f;
+                }
+            }
+        }
+    }
+
+}

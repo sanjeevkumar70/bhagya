@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+.header_box {
+    .navbar-nav {
+        font-family: 'Inter';
+
+        .nav-item {
+            a {
+                color: #000000;
+            }
+
+            .dropdown-menu {
+                .submenu-box {
+                    position: absolute;
+                    right: 0;
+                    top: 10;
+                    width: 800px;
+                    color: #fff;
+                    padding: 20px 5px;
+                    border-radius: 10px;
+                    background: #003F7C;
+
+                    .submenu-image-box {
+                        gap: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0;
+                        padding: 0;
+
+                        img {
+                            width: 190px;
+                            height: 85px;
+                            border-radius: 10px;
+                        }
+                    }
+
+                    .inds-header {
+                        color: #00ABC8;
+                        text-decoration: none;
+                        font-size: 18px;
+                        font-weight: 600;
+                        padding-left: 40px;
+                        margin: 10px 0;
+                    }
+
+                    ul li {
+                        padding: 5px 0;
+                        font-size: 16px;
+                        list-style: none;
+                        font-weight: 600;
+
+                        a {
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .home {
+            a {
+                color: #003F7C;
+                font-weight: 700;
+            }
+        }
+
+        .drop-box {
+            ul {
+                border-radius: 0;
+            }
+        }
+
+        li:nth-child(4) {
+            a {
+                color: #00ABC8;
+                font-weight: 700;
+            }
+        }
+    }
+}

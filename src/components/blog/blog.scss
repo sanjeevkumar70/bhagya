@@ -1,0 +1,107 @@
+
+.blog-box {
+    padding:7% 10%;
+    background: #003f7c;
+    font-family: "Open Sans", sans-serif;
+
+    @media (max-width: 992px) {
+        padding: 4%
+    }
+
+    @media (max-width: 576px) {
+        padding: 4%
+    }
+
+    .blog-content {
+        width: 100%;
+        text-align: center;
+        color: #fff;
+
+        .banner-blog {
+            color: #fff;
+            text-align: center;
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        .banner-content {
+            color: #fff;
+            text-align: center;
+            margin-top: 2%;
+
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+
+    .blog-card {
+        margin-top: 3%;
+
+        .card-box {
+            background: #fff;
+            display: flex;
+            gap: 10px;
+            border-radius: 10px;
+            padding: 15px;
+
+            @media (max-width: 576px) {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .card-left {
+                img {
+                    @media (max-width: 576px) {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .card-right {
+                .card-date {
+                    color: #999;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+                .card-header {
+                    color: #3a3a3a;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
+                .card-content {
+                    color: #666;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+                .card-arrow {
+                    margin-left: 2%;
+                }
+
+                a {
+                    color: #003f7c;
+                    font-weight: 600;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .bottom-btn {
+        display: flex;
+
+        margin-top: 40px;
+        justify-content: center;
+
+        button {
+            color: #003f7c;
+            font-size: 20px;
+            font-weight: 600;
+            border: 0;
+            padding: 10px 30px;
+            border-radius: 10px;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+import React from 'react'
+
+const RightBodrer1 = () => {
+  return (
+    <>
+      <svg xmlns="http://www.w3.org/2000/svg" width="985" height="40" viewBox="0 0 985 40" fill="none">
+        <path d="M39.5 0H1335V40H0L39.5 0Z" fill="#00246B" />
+      </svg>
+    </>
+  )
+}
+
+export default RightBodrer1

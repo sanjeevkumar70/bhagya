@@ -1,0 +1,40 @@
+// .shape1 {
+//     margin-left: 50px;
+//     width: 400px;
+//     height: 50px;
+//     background-color: #8AB6F9;
+//     transform: skew(-40deg);
+//     transform-origin: top left;
+// }
+// .shape2 {
+//     width: 400px;
+//     height: 50px;
+//     background-color: #8AB6F9;
+//     transform: skew(-40deg);
+//     transform-origin: top left;
+// }
+
+#myDIV1 {
+    height:100px;
+    background-color:#d75353;
+  }
+  #blueDIV1 {
+    position:absolute;
+    width:500px;
+    background:lightblue;
+    padding:60px;
+   clip-path: polygon(0 0, 100% 0, 85% 33%, 0 32%);
+  }
+  #myDIV2 {
+    height:200px;
+    background-color:#759e4c;
+  }
+  #blueDIV2 {
+    position:absolute;
+    top: 250px;
+    width:100%;
+    z-index: 1000;
+    background:rgb(230, 173, 223)7;
+    padding:30px;
+   clip-path: polygon(0 0, 100% 0, 75% 33%, 0 32%);
+  }

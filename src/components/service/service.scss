@@ -1,0 +1,37 @@
+.service-box {
+    color: #fff;
+    padding: 7% 10%;
+    background: #003F7C;
+    font-style: normal;
+
+    .service-right-box {
+        font-family: Open Sans;
+        padding: 30px 60px 0 60px;
+
+        h3 {
+            color: #FFF;
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        span {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        .service-text {
+            padding-bottom: 10px;
+            h6 span {
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+
+    }
+}
