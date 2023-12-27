@@ -1,10 +1,12 @@
 import './header.scss'
 import { Link } from 'react-router-dom';
+import { useAuth0 } from "@auth0/auth0-react";
 import logo from "../../assets/svg-icon/logo.svg"
 import React, { useEffect, useState } from 'react'
 
 
 const Header = () => {
+    const { user, loginWithRedirect, logout, isAuthenticated } = useAuth0();
 
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
     var isMobile;
@@ -130,6 +132,28 @@ const Header = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/privacy">Privacy Policy</Link>
                             </li>
+                            {isAuthenticated ? <li className="nav-item">
+                                    <Link className="nav-link" onClick={() => logout()} style={{ color: '#003F7C', fontWeight: 700 }}>
+                                        Logout
+                                    </Link>
+                                </li> : <li className="nav-item">
+                                    <Link className="nav-link" onClick={() => loginWithRedirect()} style={{ color: '#003F7C', fontWeight: 700 }}>
+                                        Login
+                                    </Link>
+                                </li>}
+
+                                {isAuthenticated && <li>
+                                    <div className='d-flex  justify-content-between' style={{ }}>
+
+
+                                        <div >
+                                            {user.image !==null ? 
+                                            <img src={user.picture} width= "40" height= "40" alt="" style={{borderRadius:20}}/> 
+                                            : <p style={{ width: 40, height: 40, background: "#003", borderRadius: 20 , fontSize: 16, fontWeight: 900, paddingTop: 6, paddingLeft: 8 }} className='text-light' >{user.given_name.charAt(0).toUpperCase() + user.family_name.charAt(0).toUpperCase()}</p>
+                                            }
+                                        </div>
+                                    </div>
+                                </li>}
 
                         </ul>
                     </div>
